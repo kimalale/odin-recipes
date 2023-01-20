@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Banana Bread Recipe</title>
+    <title>Odin Recipes</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,8 +42,9 @@
 
         .view {
             display: flex;
-            justify-content: space-evenly;
-            margin-top: 40px;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px auto;
         }
 
         img {
@@ -69,8 +70,61 @@
             color: blue;
         }
 
+        .center {
+            text-align: center;
+        }
 
+        @media only screen and (max-width: 710px) {
+            .view {
+            display:block;
+            margin-top: -20px auto;
+            text-align: center;
+            gap: 40px;
+            }
 
+            h3 {
+                margin-top: 60px;
+            }
+
+        .recipes{
+            display: inline-block;
+            text-align: center;
+            width: 500px;
+            height: 360px;
+        }
+          
+        }
+
+    
+
+        @media only screen and (max-width: 508px) {
+            .view {
+            display:block;
+            margin-top: -20px auto;
+            text-align: center;
+            gap: 40px;
+            }
+
+            h3 {
+                margin-top: 60px;
+            }
+
+        .recipes{
+            display: inline-block;
+            text-align: center;
+            width: 250px;
+            height: 220px;
+        }
+
+        img {
+            
+            aspect-ratio: 13/4;
+            border-radius: 10px;
+        }
+            
+        }
+        
+        
     </style>
 </head>
 <body>
@@ -106,9 +160,9 @@
         </div>
     </div>
 </body>
-<footer style="margin: 150px;">
+<footer>
     <div>
-        <p style="text-align: center;">Recipe Project from <a href="https://www.theodinproject.com/lessons/foundations-recipes">THE ODIN PROJECT.</a></p>
+        <p class="center">Recipe Project from <a href="https://www.theodinproject.com/lessons/foundations-recipes">THE ODIN PROJECT.</a></p>
     </div>
 </footer>
 </html>
