@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Banana Bread Recipe</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+
+        * {
+            box-sizing: border-box;
+        }
+
+       
+
+        body {
+            font-family: "Poppins", "Open Sans", "Montserrat", sans-serif;
+            margin: 0;
+            font-size: 30px;
+        }
+
+
+        h1 {
+            
+            text-align: center;
+            font-weight: 200;
+
+            
+            
+        }
+
+        .title {
+            
+            border-bottom: 1px solid black;
+            margin: 16px auto;
+        }
+
+        h3 {
+            font-weight: 100;
+        }
+
+        .view {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        img {
+            width: 650px;
+            height: 400px;
+            aspect-ratio: 13/4;
+            border-radius: 10px;
+        }
+
+        .recipes {
+            text-align: center;
+            justify-content: center;
+            width: 200px;
+            height: 200px;
+        }
+
+        .recipes > a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        .description {
+            margin: 30px auto;
+            background-color: rgba(82, 78, 78, 0.288);
+            width: 80%;
+            padding: 4px;
+            border-radius: 6px;
+        }
+
+        .steps {
+            margin: auto;
+            width: 80%;
+            text-align: center;
+        }
+     
+        .ingredients, .steps {
+            text-align: center;
+        }
+
+        li {
+
+            margin: 10px;
+        }
+        ul, ol {
+            display: inline-block;
+            text-align: left;
+        }
+
+        .ingredients > h2, .steps > h2 {
+            text-decoration: underline;
+            text-underline-offset: 8px;
+            text-decoration-thickness: 1px;
+        }
+
+        .box {
+            border: 2px solid black;
+            font-family: "Open Sans";
+            width:fit-content;
+            padding: 8px;
+            margin: 20px auto;
+        }
+
+        .box > h2, .box > p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box > h2 {
+            font-weight: 100;
+        }
+
+        .divider{
+            border: .01px solid black;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 680px) {
+            img {
+            width: 550px;
+            height: 300px;
+            }
+        }
+
+        @media only screen and (max-width: 580px) {
+            img {
+            width: 400px;
+            height: 250px;
+            }
+
+            .steps {
+           
+            width: 90%;
+        }
+
+        footer {
+            margin: 100px;
+        }
+        }
+
+
+        @media only screen and (max-width: 470px) {
+            img {
+            width: 300px;
+            height: 150px;
+            }
+
+            .steps {
+           
+            width: 94%;
+        }
+
+        body {
+            font-size: 18px;
+        }
+
+        footer {
+            margin: 0;
+        }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="title">
+    <h1>Banana Bread</h1>
+    </div>
+
+
+    <div class="view">   
+        <img src="../images/banana-bread.webp" alt="Banana Bread recipe">
+        <h2 style="font-weight: 200;">About the recipe</h2>
+    
+        <div class="description">
+            <p>
+                This banana bread recipe creates the most delicious, moist loaf with loads of banana flavor. 
+                Why compromise the banana flavor? Friends and family love my recipe and say it's by far the best! 
+                It tastes wonderful toasted. Enjoy!
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="ingredients">
+        <h2 style="font-weight: 200;">Ingredients</h2>
+        <ul>
+            <li>2 cups all-purpose flour</li>
+            <li>1 teaspoon baking soda</li>
+            <li>¼ teaspoon salt</li>
+            <li>¾ cup brown sugar</li>
+            <li>½ cup butter</li>
+            <li>2 eggs, beaten</li>
+            <li>2 ⅓ cups mashed overripe bananas</li>
+        </ul>
+    </div>
+    <div class="steps">
+        <h2 style="font-weight: 200;">Steps</h2>
+
+        <ol>
+            <li>Preheat the oven to 350 degrees F (175 degrees C). Lightly grease a 9x5-inch loaf pan.</li>
+            <li>Combine flour, baking soda, and salt in a large bowl. Beat brown sugar and butter with an electric mixer in a separate large bowl until smooth. Stir in eggs and mashed bananas until well blended. Stir banana mixture into flour mixture until just combined. Pour batter into the prepared loaf pan.</li>
+            <li>Bake in the preheated oven until a toothpick inserted into the center comes out clean, about 60 minutes. Let bread cool in pan for 10 minutes, then turn out onto a wire rack to cool completely.</li>
+        </ol>
+
+
+    </div>
+   
+</body>
+<footer>
+    <div>
+        <p class="center">Recipe Project from <a href="https://www.theodinproject.com/lessons/foundations-recipes">THE ODIN PROJECT.</a></p>
+    </div>
+</footer>
+</html>

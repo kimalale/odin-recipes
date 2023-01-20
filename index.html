@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Banana Bread Recipe</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Poppins", "Open Sans", "Montserrat", sans-serif;
+            margin: 0;
+        }
+
+
+        h1 {
+            
+            text-align: center;
+            font-weight: 200;
+
+            
+            
+        }
+
+        .title {
+            
+            border-bottom: 1px solid black;
+            margin: 16px auto;
+        }
+
+        h3 {
+            font-weight: 100;
+        }
+
+        .view {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 40px;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            aspect-ratio: 13/4;
+            border-radius: 10px;
+        }
+
+        .recipes {
+            text-align: center;
+            justify-content: center;
+            width: 200px;
+            height: 200px;
+        }
+
+        .recipes > a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="title">
+    <h1>Odin Recipes</h1>
+    </div>
+
+
+    <div class="view">
+        <div class="recipes">
+            <a href="./recipes/banana-bread.html">
+            <h3>
+                Banana Bread
+            </h3>
+            <img src="./images/banana-bread.webp" alt="Banana Bread recipe">
+            </a>
+        </div>
+        <div class="recipes">
+            <a href="./recipes/beef-stew.html">
+            <h3>
+                Beef Stew
+            </h3>
+            <img src="./images/beef_stew.webp" alt="Beef Stew recipe">
+            </a>
+        </div>
+        <div class="recipes">
+            <a href="./recipes/ribs.html">
+            <h3>
+                Ribs
+            </h3>
+            <img src="./images/ribs.webp" alt="Ribs recipe">
+            </a>
+        </div>
+    </div>
+</body>
+<footer style="margin: 150px;">
+    <div>
+        <p style="text-align: center;">Recipe Project from <a href="https://www.theodinproject.com/lessons/foundations-recipes">THE ODIN PROJECT.</a></p>
+    </div>
+</footer>
+</html>
